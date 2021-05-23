@@ -18,18 +18,12 @@
     "prepublish": "npm run build"
   },
   "devDependencies": {
-    "browserify": "^11.0.1",
-    "coffee-coverage": "^0.6.3",
-    "coffee-script": "^1.10.0",
-    "coffeeify": "^1.1.0",
-    "coffeetape": "^1.0.1",
-    "exorcist": "^0.4.0",
-    "faucet": "^0.0.1",
-    "istanbul": "^0.3.18",
-    "tape": "^4.2.0",
-    "uglifyify": "^3.0.1",
-    "watchify": "^3.3.1",
-    "zuul": "^3.4.0"
+    "browserify": "^17.0.0",
+    "coffeeify": "^3.0.1",
+    "coffeescript": "^2.5.1",
+    "exorcist": "^2.0.0",
+    "uglifyify": "^5.0.2",
+    "watchify": "^4.0.0"
   },
   "keywords": [
     "password",
@@ -45,5 +39,8 @@
     "scoring",
     "entropy",
     "bruteforce"
-  ]
+  ],
+  "dependencies": {
+    "npm-check-updates": "^11.5.13"
+  }
 }

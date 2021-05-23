@@ -31,10 +31,14 @@ passed data dir, or vice-versa.
 DICTIONARIES = dict(
     us_tv_and_film    = 30000,
     english_wikipedia = 30000,
+    fr = 30000,
+    fr_passwords = 30000,
     passwords         = 30000,
     surnames          = 10000,
     male_names        = None,
     female_names      = None,
+    nom_femme = None,
+    nom_homme = None,
 )
 
 # returns {list_name: {token: rank}}, as tokens and ranks occur in each file.
