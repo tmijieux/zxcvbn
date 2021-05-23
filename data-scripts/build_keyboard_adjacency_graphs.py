@@ -24,6 +24,13 @@ dvorak = r'''
       ;: qQ jJ kK xX bB mM wW vV zZ
 '''
 
+azerty = r"""
+² 1& 2é~ 3"# 4'{ 5([ 6-| 7è` 8_\ 9ç^ 0à@ °)] +=]
+   aA zZ eE rR tT yY uU iI oO pP ^¨ $£¤
+    qQ sS dD fF gG hH jJ kK lL mM ù% *µ
+     wW xX cC vV bB nN ,? ;. :/ !§
+"""
+
 keypad = r'''
   / * -
 7 8 9 +
@@ -99,6 +106,7 @@ if __name__ == '__main__':
         lines = []
         for graph_name, args in [('qwerty', (qwerty, True)),
                                  ('dvorak', (dvorak, True)),
+                                 ('azerty', (azerty, True)),
                                  ('keypad', (keypad, False)),
                                  ('mac_keypad', (mac_keypad, False))]:
             graph = build_graph(*args)
